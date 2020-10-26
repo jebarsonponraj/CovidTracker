@@ -127,6 +127,13 @@ body {
   font-size: 1.2rem;
 }
 
+@media (max-width: 450px){
+  #serchButton{
+    height: 25px;
+    max-width: 30px;
+  }
+}
+
 /* Search Button */
 #searchButton {
   height: 22px;
