@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon-96x96.png"  />
+    <link rel="icon"  href="favicon.ico">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Rubik&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a10ae75c1d.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"> </script>
+
+
+    <title>Covid-19 tracker</title>
+</head>
+
+<body>
+    <div class="flexTitle">
+        <div class="title">Covid-19 Tracker</div>
+    </div>
+    <div class="flexPlace">
+        <div class="place">
+            <p id="places">Worldwide</p>
+        </div>
+
+    </div>
+
+
+    <div>
+        <center>
+            <p class="searchText">Search for a specific country here</p>
+        </center>
+    </div>
+    <br>
+
+
+    <div class="flexSearch">
+        <div class="flexInput">
+            <input id="searchButton" type="text" placeholder="Search Country" name="cityName" />
+            <button class="button" type="submit">Search</button>
+        </div>
+    </div>
+
+    <div class="cases">
+        <div class="casesBox">
+            <p class="smallText">Confirmed cases</p>
+            <span id="cases" class="number"></span>
+        </div>
+        <div class="casesBox">
+            <p class="smallText">Active cases</p>
+            <span id="active" class="number"></span>
+        </div>
+        <div class="casesBox">
+            <p class="smallText">Recovered cases</p>
+            <span id="recovered" class="number"></span>
+        </div class="casesBox">
+        <div class="casesBox">
+            <p class="smallText">Total Deaths</p>
+            <span id="death" class="number"></span>
+        </div>
+    </div>
+
+
+    <div class="love">
+        <center>   <p>      
+            <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart"></i> by Jebarson & Abishua 
+                <br>
+                  <i class="fa fa-copyright" aria-hidden="true"></i> 2020
+                  <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> India</span>
+                </p> </center> 
+        </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

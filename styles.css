@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  /* Changing Baxkground Gradient */
+  background: linear-gradient(65deg, #6fc7b5 0%, #13bdce 20%, #0094d9 40%, #7846c9 60%, #ee4d74 80%, #f58c58 100%);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Title */
+.flexTitle {
+  display: flex;
+  flex-grow: 500;
+  justify-content: center;
+
+}
+
+.title {
+  height: 85px;
+  width: 290px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+/* Country Name */
+.flexPlace {
+  display: flex;
+  justify-content: center;
+}
+
+.place {
+  color: white;
+  font-size: 1.6rem;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+
+/* Cases Boxes */
+.cases {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.cases>div {
+  border-radius: 10px;
+  width: 320px;
+  height: 120px;
+  background-color: white;
+  margin: 10px 130px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .cases>div {
+    border-radius: 10px;
+    width: 320px;
+    height: 120px;
+    background-color: white;
+    margin: 10px 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+/* Cases Types */
+.smallText {
+  font-size: 20px;
+  margin-top: 18px;
+  margin-bottom: -10px;
+}
+
+/* Case Number */
+.number {
+  font-size: 40px;
+  margin-top: -13px;
+}
+
+
+.flexSearch {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/* SearchBox Input */
+.flexInput {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  margin-top: -15px;
+}
+
+/* User Typed Text */
+.searchText {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* Search Button */
+#searchButton {
+  height: 22px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  color: black;
+
+  padding-left: 5px;
+  line-height: normal;
+}
+
+
+/* Search Button After Click */
+#searchButton:focus {
+
+  padding-left: 5px;
+  transition: background 400ms ease-in-out;
+  border-color: white;
+  outline-color: white;
+
+}
+
+button {
+  height: 22px;
+  align-items: center;
+  max-height: 3em;
+  letter-spacing: .2em;
+  width: 70px;
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: #E9E9E9;
+  -webkit-animation: rainbow 8s ease infinite;
+  animation: rainbow 8s ease infinite;
+  background-image: linear-gradient(124deg, #ff470f, #ff3860, #b86bff, #3273dc);
+  background-size: 800% 800%
+}
+
+/* SearchButton Changing Color */
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 1% 80%
+  }
+
+  50% {
+    background-position: 99% 20%
+  }
+
+  100% {
+    background-position: 1% 80%
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 1% 80%
+  }
+
+  50% {
+    background-position: 99% 20%
+  }
+
+  100% {
+    background-position: 1% 80%
+  }
+}
+
+
+
+@media (max-width: 450px) {
+  body {
+    width: 100%;
+
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Footer */
+.love {
+  padding-top: 5%;
+  padding-bottom: 1%;
+  justify-content: center;
+  color: white;
+}
