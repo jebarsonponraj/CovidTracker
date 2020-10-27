@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Noto Sans KR", sans-serif;
+  color: white;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
   height: 85px;
   width: 290px;
   border-radius: 5px;
-  background-color: white;
+  background-color: black;
   text-align: center;
   margin-top: 15px;
   padding: 20px;
@@ -53,7 +54,7 @@ body {
 }
 
 .place {
-  color: white;
+  color: black;
   font-size: 1.6rem;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -74,7 +75,7 @@ body {
   border-radius: 10px;
   width: 320px;
   height: 120px;
-  background-color: white;
+  background-color: black;
   margin: 10px 130px;
   font-size: 30px;
   text-align: center;
@@ -85,7 +86,7 @@ body {
     border-radius: 10px;
     width: 320px;
     height: 120px;
-    background-color: white;
+    background-color: black;
     margin: 10px 40px;
     font-size: 30px;
     text-align: center;
@@ -108,7 +109,7 @@ body {
 
 .flexSearch {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
@@ -120,13 +121,13 @@ body {
   margin-top: -15px;
 }
 
+
 /* User Typed Text */
 .searchText {
   margin-bottom: 10px;
   color: white;
   font-size: 1.2rem;
 }
-
 
 /* Search Button */
 #searchButton {
@@ -135,7 +136,7 @@ body {
   border-style: solid;
   border-color: white;
   color: black;
-
+  max-width: 190px;
   padding-left: 5px;
   line-height: normal;
 }
@@ -159,9 +160,9 @@ button {
   width: 70px;
   border-radius: 2px 2px 2px 2px;
   border: none;
-  color: white;
+  color: black;
   cursor: pointer;
-  box-shadow: #E9E9E9;
+  box-shadow: black;
   -webkit-animation: rainbow 8s ease infinite;
   animation: rainbow 8s ease infinite;
   background-image: linear-gradient(124deg, #ff470f, #ff3860, #b86bff, #3273dc);
