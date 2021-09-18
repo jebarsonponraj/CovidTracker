@@ -7,7 +7,7 @@
 }
 
 body {
-  /* Changing Baxkground Gradient */
+  /* Changing Background Gradient */
   background: linear-gradient(65deg, #6fc7b5 0%, #13bdce 20%, #0094d9 40%, #7846c9 60%, #ee4d74 80%, #f58c58 100%);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
